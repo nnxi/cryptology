@@ -1,3 +1,3 @@
 # cryptology
 
-implement some encryption algorithm
+implement an encryption algorithm
