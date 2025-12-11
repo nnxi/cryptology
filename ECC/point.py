@@ -1,6 +1,6 @@
 # a, b, p는 고정이라고 가정
 
-
+# Point class 선언
 class Point:
     def __init__(self, x, y, a, b, p):
         self.x = x
@@ -50,6 +50,7 @@ class Point:
 
         # 역원을 더하기
         return self.add(temp)
+    
     
     # 점에 상수를 곱할 때 (고속 지수 연산 이용)
     def mul(self, n):
